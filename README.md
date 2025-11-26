@@ -182,10 +182,10 @@ The LLC resonant converter offers:
 The following key figures are provided for reference and are located in the `LLCConverter/Figures/` folder:
 
 - **Figure 1:** LLC Resonant Converter Block Diagram  
-  ![LLC Block Diagram](LLCConverter/Figures/figure1.png)
+  ![LLC Block Diagram](LLCConverter/Figures/figure1.jpg)
 
 - **Figure 2:** LLC Converter Simulation Waveforms  
-  ![LLC Simulation Waveforms](LLCConverter/Figures/figure2.png)
+  ![LLC Simulation Waveforms](LLCConverter/Figures/figure2.jpg)
 
 
 ### DAB Converter Performance
