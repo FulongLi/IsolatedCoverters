@@ -178,12 +178,10 @@ The LLC resonant converter offers:
 - **Power Density:** Optimized for high-frequency operation
 - **EMI Performance:** Low due to soft switching
 #### LLC Converter Figures
-
-The following key figures are provided for reference and are located in the `LLCConverter/Figures/` folder:
  
-![LLC Resonant Converter Block Diagram](LLCConverter/Figures/Figure1.jpg)
+<img src="LLCConverter/Figures/Figure1.jpg" alt="LLC Resonant Converter Block Diagram" width="400"/>
 
-![LLC Resonant Converter Simulation Waveforms](LLCConverter/Figures/Figure2.jpg)
+<img src="LLCConverter/Figures/Figure2.jpg" alt="LLC Resonant Converter Simulation Waveforms" width="400"/>
 
 
 ### DAB Converter Performance
