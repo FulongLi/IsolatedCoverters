@@ -112,7 +112,7 @@ The LLC resonant converter offers:
 - Hardware implementation reference
 - Control algorithm development platform
 
-## Getting Started
+## Getting Started (LLC converter example)
 
 ### Prerequisites
 - **MATLAB/Simulink** (R2020a or later recommended)
@@ -170,95 +170,23 @@ The LLC resonant converter offers:
 3. **Real-time Implementation:** Port the code to your target DSP platform
 4. **Closed-loop Testing:** Validate control performance with hardware-in-the-loop testing
 
-## File Descriptions
 
-### LLC Converter Files
-- `LLC_converter_design_script.m` - Main design calculation script
-- `power_ResonantLLCConverter_FLi.slx` - Complete Simulink model
-- `simulation_script.m` - Performance analysis and plotting
-- `Figure1.jpg`, `Figure2.jpg` - Key design analysis results
-
-### Directory Contents
-- **DSPCodes/**: Real-time control implementation files
-- **Figures/**: Design analysis plots and performance curves  
-- **Images/**: Circuit diagrams, photos, and schematics
-- **PCB/**: Complete PCB design files and manufacturing data
-- **Simulations/**: MATLAB/Simulink models and analysis scripts
-
-## Design Methodology
-
-### LLC Converter Design Process
-1. **Specification Definition**
-   - Input/output voltage and power requirements
-   - Efficiency and regulation targets
-   - Operating frequency range
-
-2. **Resonant Tank Design**
-   - Magnetizing inductance calculation
-   - Resonant capacitor selection
-   - Quality factor optimization
-
-3. **Transformer Design**
-   - Turns ratio calculation
-   - Core selection and winding design
-   - Parasitic minimization
-
-4. **Control System Design**
-   - Frequency modulation strategy
-   - Feedback compensation
-   - Protection and fault handling
-
-### DAB Converter Design Process
-1. **Power Stage Design**
-   - Switch selection and ratings
-   - Transformer design optimization
-   - Output filter design
-
-2. **Control Strategy**
-   - Phase-shift modulation
-   - ZVS operation analysis
-   - Bidirectional power flow control
-
-3. **Optimization**
-   - Efficiency optimization
-   - Power density maximization
-   - Thermal management
-
-
-
-
-
-## Applications
-
-These converter designs are suitable for various high-power applications:
-
-- **Electric Vehicle Charging Stations**
-  - On-board chargers (OBC)
-  - DC fast charging infrastructure
-  - Vehicle-to-grid (V2G) systems
-
-- **Renewable Energy Systems**
-  - Solar inverter DC-DC stages
-  - Energy storage system interfaces
-  - Grid-tie converter applications
-
-- **Industrial Power Supplies**
-  - Server and telecom power systems
-  - Motor drive applications
-  - Uninterruptible power supplies (UPS)
-
-- **Research and Development**
-  - Academic research projects
-  - Power electronics education
-  - Prototype development platforms
-
-## Performance Characteristics
 
 ### LLC Converter Performance
 - **Efficiency:** >95% at full load
 - **Regulation:** ±1% line and load regulation
 - **Power Density:** Optimized for high-frequency operation
 - **EMI Performance:** Low due to soft switching
+#### LLC Converter Figures
+
+The following key figures are provided for reference and are located in the `LLCConverter/Figures/` folder:
+
+- **Figure 1:** LLC Resonant Converter Block Diagram  
+  ![LLC Block Diagram](../LLCConverter/Figures/figure1.png)
+
+- **Figure 2:** LLC Converter Simulation Waveforms  
+  ![LLC Simulation Waveforms](../LLCConverter/Figures/figure2.png)
+
 
 ### DAB Converter Performance
 - **Bidirectional Efficiency:** >94% in both directions
