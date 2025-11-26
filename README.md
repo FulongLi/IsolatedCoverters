@@ -70,22 +70,6 @@ The LLC resonant converter offers:
 - Wide input voltage range capability
 - Optimal for high-power density applications
 
-## Technical Specifications
-
-### Design Parameters (LLC Converter Example)
-- **Input Voltage:** 750V (PFC output)
-- **Output Voltage:** 55V
-- **Output Power:** 10kW
-- **Switching Frequency Range:** 50kHz - 250kHz
-- **Efficiency Target:** >95%
-- **Control Method:** Frequency modulation
-
-### Simulation Environment
-- **MATLAB/Simulink** for system-level modeling
-- **Design-oriented analysis scripts** for component selection
-- **Frequency domain analysis** for resonant tank design
-- **Time domain simulation** for transient analysis
-
 ## Features
 
 ✅ **Complete Design Package**
@@ -177,67 +161,12 @@ The LLC resonant converter offers:
 - **Regulation:** ±1% line and load regulation
 - **Power Density:** Optimized for high-frequency operation
 - **EMI Performance:** Low due to soft switching
-#### LLC Converter Figures
+#### LLC Converter Key Design Figures
  
-<img src="LLCConverter/Figures/Figure1.jpg" alt="LLC Resonant Converter Block Diagram" width="400"/>
+<img src="LLCConverter/Figures/Figure1.jpg" alt="LLC Resonant Converter Block Diagram" width="300"/>
 
-<img src="LLCConverter/Figures/Figure2.jpg" alt="LLC Resonant Converter Simulation Waveforms" width="400"/>
+<img src="LLCConverter/Figures/Figure2.jpg" alt="LLC Resonant Converter Simulation Waveforms" width="300"/>
 
-
-### DAB Converter Performance
-- **Bidirectional Efficiency:** >94% in both directions
-- **ZVS Range:** Wide ZVS operation range
-- **Dynamic Response:** Fast transient response
-- **Power Range:** Scalable from kW to MW applications
-
-## Contributing
-
-This is an archived project, but the designs and methodologies can serve as references for:
-- Educational purposes in power electronics courses
-- Research baseline for converter development
-- Industrial design reference implementations
-- Open-source hardware development
-
-## Citing This Work
-
-If you use these designs in your research or educational work, please cite:
-
-```bibtex
-@misc{li2024isolatedconverters,
-  title={Isolated Converters: Complete Design Package for DAB and LLC Topologies},
-  author={Li, Fulong},
-  year={2024},
-  publisher={GitHub},
-  url={https://github.com/YourUsername/IsolatedConverters}
-}
-```
-
-## Disclaimer
-
-These designs are provided for educational and research purposes. Users should:
-- Verify all calculations and simulations for their specific applications
-- Conduct proper safety analysis before hardware implementation
-- Follow applicable safety standards and regulations
-- Perform thorough testing and validation
-
-The author assumes no responsibility for any damages or injuries resulting from the use of these designs.
-
-## Related Resources
-
-### Recommended Reading
-- "Resonant Power Converters" by Kazimierczuk
-- "Power Electronics Handbook" by Rashid
-- IEEE Transactions on Power Electronics (journal)
-
-### Online Resources
-- MATLAB Power Electronics Community
-- IEEE Power Electronics Society
-- Power Electronics Education Portal
-
-## Version History
-
-- **v1.0** (2024) - Initial release with complete LLC and DAB designs
-- Archived status - No further updates planned
 
 ## Author
 
